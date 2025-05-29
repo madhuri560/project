@@ -4,13 +4,13 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
 
-public class FinanceTracker {
+public class moneytracking {
     // Transaction class to represent each financial transaction
-    static class Transaction {
+    static class Transactions {
         private LocalDate date;
         private String type; // "Income" or "Expense"
         private double amount;
-        private String category;
+        private String categories;
         private String description;
 
         public Transaction(LocalDate date, String type, double amount, String category, String description) {
