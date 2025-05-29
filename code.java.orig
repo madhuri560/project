@@ -3,13 +3,16 @@ import java.io.*;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
-public class financetracker {
+
+<<<<<<< HEAD
+public class moneytracking {
     // Transaction class to represent each financial transaction
     static class Transactions {
         private LocalDate date;
         private String type; // "Income" or "Expense"
         private double amount;
         private String categories;
+=======
 public class FinanceTracing {
     // Transaction class to represent each financial transaction
     static class Transactions {
@@ -17,7 +20,7 @@ public class FinanceTracing {
         private Strings; // "Income" or "Expense"
         private double amt;
         private String category;
-
+>>>>>>> b1
         private String description;
 
         public Transaction(LocalDate date, String type, double amount, String category, String description) {
